@@ -865,6 +865,9 @@ overflow: hidden;
     justify-content: space-between;
     margin: 28px auto 0;
   }
+  .slider_button:hover{
+    background-color:inherit;
+  }
 
   .stepsSlider_button{
     width: 36px;
@@ -913,8 +916,6 @@ overflow: hidden;
 
   .participants__wrapper{
     position: relative;
-    width: 375px;
-
   }
 
   .participants__slider{
