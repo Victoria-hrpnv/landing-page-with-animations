@@ -120,6 +120,9 @@ main {
   text-align: center;
   background-color: transparent;
   transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -541,6 +544,9 @@ overflow: hidden;
 }
 .steps__button{
   display: none;
+}
+.button--colorTransparent{
+  color: black;
 }
 
 @media (hover: hover) and (pointer: fine) {
